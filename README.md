@@ -2,7 +2,7 @@
 
 <h1 align="center">ptweb</h1>
 <p align="center">
-  <img src="icon/ptweb.svg" alt="ptweb" width="300" height="300">
+  <img src="icon/ptweb.png" alt="ptweb" width="120" height="120">
 </p>
 
 <p align="center">
