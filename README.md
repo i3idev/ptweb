@@ -15,7 +15,7 @@
 ## Install
 
 ```bash
-git clone https://github.com/<you>/ptweb.git
+https://github.com/i3idev/ptweb.git
 cd ptweb
 python3 ptweb.py install
 ptweb test
