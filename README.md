@@ -1,11 +1,76 @@
-# ptweb
-<p align="center">
-  <img src="icon/ptweb.svg" alt="ptweb" width="128" height="128">
-</p>
+<div align="center">
 
-<h1 align="center">ptweb</h1>
+<img src="icon/ptweb.svg" alt="ptweb" width="120">
 
-<p align="center">
-  Run shell commands from your browser via <code>ptweb://</code> protocol.
-</p>
 # ptweb
+
+**Run shell commands from your browser.**
+
+`ptweb://run?cmd=ls` → opens terminal → runs → done.
+
+</div>
+
+---
+
+## Install
+
+```bash
+git clone https://github.com/<you>/ptweb.git
+cd ptweb
+python3 ptweb.py install
+ptweb test
+```
+
+## Usage
+
+From terminal:
+
+```bash
+xdg-open 'ptweb://run?cmd=pwd%20%26%26%20ls'
+```
+
+From browser console (chatgpt.com, GitHub, any page):
+
+```js
+// paste the Run script from this repo → click Run on any code block
+```
+
+## CLI
+
+```bash
+ptweb install              # install
+ptweb remove [--purge]     # uninstall
+ptweb set-path ~/project   # set default cwd
+ptweb set-terminal kitty   # set terminal
+ptweb status               # health check
+ptweb test                 # test it
+```
+
+## Protocol
+
+```
+ptweb://run?cmd=<urlencoded>[&cwd=<urlencoded>][&clip=1]
+```
+
+- `cmd` — shell command
+- `cwd` — working directory
+- `clip=1` — read command from clipboard (for long commands)
+
+## How it works
+
+```
+browser → ptweb:// URL → ~/.local/bin/ptweb-run → terminal → bash
+```
+
+No server. No daemon. Just a protocol handler.
+
+## Uninstall
+
+```bash
+ptweb remove --purge
+```
+
+## License
+
+MIT
+
