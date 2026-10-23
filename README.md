@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="icon/ptweb.png" alt="ptweb" width="120">
+<div align="center">
+  <img src="icon/ptweb.png" alt="ptweb" width="120" height="120">
+</div>
 
 # ptweb
 
