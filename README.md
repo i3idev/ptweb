@@ -1,16 +1,13 @@
-<div align="center">
-
-<div align="center">
+<p align="center">
   <img src="icon/ptweb.png" alt="ptweb" width="120" height="120">
-</div>
+</p>
 
-# ptweb
+<h1 align="center">ptweb</h1>
 
-**Run shell commands from your browser.**
-
-`ptweb://run?cmd=ls` -> opens terminal -> runs
-
-</div>
+<p align="center">
+  <strong>Run shell commands from your browser.</strong><br>
+  <code>ptweb://run?cmd=ls</code> → opens terminal → runs
+</p>
 
 ---
 
@@ -75,4 +72,3 @@ ptweb remove --purge
 ## License
 
 MIT
-
