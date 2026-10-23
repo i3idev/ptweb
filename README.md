@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="icon/ptweb.svg" alt="ptweb" width="120">
+<img src="icon/ptweb.png" alt="ptweb" width="120">
 
 # ptweb
 
 **Run shell commands from your browser.**
 
-`ptweb://run?cmd=ls` → opens terminal → runs → done.
+`ptweb://run?cmd=ls` -> opens terminal -> runs
 
 </div>
 
