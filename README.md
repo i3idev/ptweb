@@ -7,7 +7,7 @@
 
 <p align="center">
   <strong>Run shell commands from your browser.</strong><br>
-  <code>ptweb://run?cmd=ls</code> → opens terminal → runs
+  <code>ptweb://run?cmd=ls</code> -> opens terminal -> runs
 </p>
 
 ---
